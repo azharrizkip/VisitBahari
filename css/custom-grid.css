@@ -1,0 +1,115 @@
+
+/*-- CSS RESET --*/
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+.text-left{
+	text-align: left;
+}
+.text-right{
+	text-align: right;
+}
+.text-center{
+	text-align: center;
+}
+
+
+/*-- SETTING CONTAINER --*/
+.container{
+	width: 100%;
+	max-width: 1200px;	
+	margin: auto;
+}
+.container *{
+	box-sizing: border-box;
+}
+.container {
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+@media (min-width: 768px) {
+	.container {
+		width: 750px;
+	}
+	.gallery {
+		width: 100%;
+	}
+}
+@media (min-width: 992px) {
+	.container {
+		width: 970px;
+	}
+}
+@media (min-width: 1200px) {
+	.container {
+		width: 1170px;
+	}
+}
+
+
+
+/*-- SETTING ROW --*/
+.row {
+	margin-right: -15px;
+	margin-left: -15px;
+}
+.row:before,
+.row:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+
+/*/////////////////////////*/
+/*-------------------------*/
+/*-------------------------*/
+/*-- SETTING col SYSTEM --*/
+/*-------------------------*/
+/*-------------------------*/
+/*/////////////////////////*/
+
+
+/*-- col MOBILE --*/
+.col-web-1, 
+.col-web-2, 
+.col-web-3, 
+.col-web-4, 
+ .col-web-5, 
+ .col-web-6, 
+ .col-web-7, 
+ .col-web-8, 
+ .col-web-9, 
+.col-web-10, 
+ .col-web-11,  .col-web-12 {
+	position: relative;
+	min-height: 1px;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+/*-- col WEB --*/
+@media (min-width: 992px) {
+	.col-web-1, .col-web-2, .col-web-3, .col-web-4, .col-web-5, .col-web-6, .col-web-7, .col-web-8, .col-web-9, .col-web-10, .col-web-11, .col-web-12 {
+		float: left;
+	}
+	.col-web-1 {width: 8.33333333%;	}
+	.col-web-2 {width: 16.66666667%;	}
+	.col-web-3 {width: 25%;			}
+	.col-web-4 {width: 33.33333333%;	}
+	.col-web-5 {width: 41.66666667%;	}
+	.col-web-6 {width: 50%;			}
+	.col-web-7 {width: 58.33333333%;	}
+	.col-web-8 {width: 66.66666667%;	}
+	.col-web-9 {width: 75%;			}
+	.col-web-10 {width: 83.33333333%;	}
+	.col-web-11 {width: 91.66666667%;	}
+	.col-web-12 {width: 100%;			}
+}
+

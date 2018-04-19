@@ -1,0 +1,101 @@
+@font-face{
+    font-family: Roboto-Regular;
+    src : url(../font/Roboto/Roboto-Regular.ttf);
+}
+@font-face{
+    font-family: Roboto-Italic;
+    src : url(../font/Roboto/Roboto-Italic.ttf);
+}
+@font-face{
+    font-family: Roboto-Light;
+    src : url(../font/Roboto/Roboto-Light.ttf);
+}
+@font-face{
+    font-family: Roboto-Bold;
+    src : url(../font/Roboto/Roboto-Bold.ttf);
+}
+.half {
+  float: left;
+  width: 100%;
+  padding: 0 1em;
+}
+/* Acordeon styles */
+.tab {
+  border: solid 1px #8c8c8c;
+  position: relative;
+  margin-bottom: 1px;
+  width: 100%;
+  color: #000000;
+  overflow: hidden;
+}
+.booking-content .tab input {
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+}
+label {
+  position: relative;
+  display: block;
+  padding: 0 0 0 1em;
+  background: #16a085;
+  font-weight: bold;
+  line-height: 3;
+  cursor: pointer;
+}
+.booking-content .blue label {
+  background: #ffffff;
+  border-radius: 5px;
+}
+.tab-content {
+  max-height: 0;
+  overflow: hidden;
+  background: #1abc9c;
+  -webkit-transition: max-height .35s;
+  -o-transition: max-height .35s;
+  transition: max-height .35s;
+  font-family: Roboto-Regular;
+  font-size: 16px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.75;
+  letter-spacing: 0.8px;
+  text-align: left;
+  color: #616161;
+}
+.blue .tab-content {
+  background: #ffffff;
+}
+.tab-content p {
+  margin: 1em;
+}
+/* :checked */
+.booking-content input:checked ~ .tab-content {
+  max-height: 40em;
+}
+/* Icon */
+label::after {
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: block;
+  width: 3em;
+  height: 3em;
+  line-height: 3;
+  text-align: center;
+  -webkit-transition: all .35s;
+  -o-transition: all .35s;
+  transition: all .35s;
+}
+input[type=checkbox] + label::after {
+  content: "+";
+}
+input[type=radio] + label::after {
+  content: "\25BC";
+}
+input[type=checkbox]:checked + label::after {
+  transform: rotate(315deg);
+}
+input[type=radio]:checked + label::after {
+  transform: rotateX(180deg);
+}

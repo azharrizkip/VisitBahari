@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="38" viewBox="0 0 28 38">
+    <g fill="none" fill-rule="evenodd">
+        <path fill="#34495E" d="M14 38c.958 0 14-16.118 14-24 0-7.882-6.268-14-14-14S0 6.268 0 14s13.042 24 14 24z"/>
+        <circle cx="14" cy="14" r="9" fill="#FFF"/>
+        <text fill="#34495E" font-family="Lato-Bold, Lato" font-size="10" font-weight="bold">
+            <tspan x="11" y="17">2</tspan>
+        </text>
+    </g>
+</svg>

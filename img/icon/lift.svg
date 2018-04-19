@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="42px" viewBox="0 0 40 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47 (45396) - http://www.bohemiancoding.com/sketch -->
+    <title>lift</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-319.000000, -285.000000)" fill-rule="nonzero" fill="#0086CD">
+            <g id="lift" transform="translate(319.000000, 285.000000)">
+                <polygon id="Shape" points="0.0536885246 0 0.0536885246 42 2.51270492 42 2.51270492 2.4609375 37.4872951 2.4609375 37.4872951 42 39.9463115 42 39.9463115 0"></polygon>
+                <path d="M4.99991803,4.7578125 L4.99991803,42 L35.0001639,42 L35.0001639,4.7578125 L4.99991803,4.7578125 Z M18.7704918,39.5390625 L7.45893443,39.5390625 L7.45893443,7.21875 L18.7704918,7.21875 L18.7704918,39.5390625 Z M32.5410656,39.5390625 L21.2295082,39.5390625 L21.2295082,7.21875 L32.5410656,7.21875 L32.5410656,39.5390625 Z" id="Shape"></path>
+                <rect id="Rectangle-path" x="9.3442623" y="26.7421875" width="7.62295082" height="2.4609375"></rect>
+                <rect id="Rectangle-path" x="9.3442623" y="30.9257812" width="7.62295082" height="2.4609375"></rect>
+                <rect id="Rectangle-path" x="9.3442623" y="35.109375" width="7.62295082" height="2.4609375"></rect>
+                <rect id="Rectangle-path" x="23.0729508" y="26.7421875" width="7.62295082" height="2.4609375"></rect>
+                <rect id="Rectangle-path" x="23.0729508" y="30.9257812" width="7.62295082" height="2.4609375"></rect>
+                <rect id="Rectangle-path" x="23.0729508" y="35.109375" width="7.62295082" height="2.4609375"></rect>
+            </g>
+        </g>
+    </g>
+</svg>
